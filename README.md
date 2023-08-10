@@ -2,6 +2,10 @@
 
 ### Tailwind
 
+npm i -D prisma @tailwindcss/typography @tailwindcss/forms
+
+npm i next-themes @headlessui/react @prisma/client next-sanity
+
 ##### @tailwindcss/forms | @tailwindcss/typography | next-themes | @headlessui/react
 
 - prisma is used to query the database!

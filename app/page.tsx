@@ -5,7 +5,7 @@ export default function Home() {
     <div className='divide-y divide-gray-100 dark:divide-gray-700'>
       <div className='space-y-2 pt-5 pb-5 md:space-x-5'>
         <h1 className='text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-10'>
-          Home
+          About
         </h1>
       </div>
 
@@ -17,14 +17,14 @@ export default function Home() {
             className='rounded-full w-52 h-52 object-cover object-top backdrop-brightness-200'
           />
           <h3 className='pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight'>
-            Ilan Lavi
+            John Doe
           </h3>
           <p className='text-gray-500 dark:text-gray-300 text-center'>
-            Hey my name is Ilan and I am a full-stack developer
+            Web Designer / Frontend Developer
           </p>
 
           <div className='flex space-x-5 pt-6'>
-            <a href='' target='_blank'>
+            <a href='#' target='_blank'>
               <svg
                 viewBox='0 0 1024 1024'
                 fill='currentColor'
@@ -34,44 +34,49 @@ export default function Home() {
               </svg>
             </a>
 
-            <a href='' target='_blank'>
+            <a href='#' target='_blank'>
               <svg
                 viewBox='0 0 1024 1024'
                 fill='currentColor'
                 className='w-8 h-8 text-teal-500 hover:text-teal-700'
               >
-                <path d='M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM349.3 793.7H230.6V411.9h118.7v381.8zm-59.3-434a68.8 68.8 0 1168.8-68.8c-.1 38-30.9 68.8-68.8 68.8zm503.7 434H675.1V608c0-44.3-.8-101.2-61.7-101.2-61.7 0-71.2 48.2-71.2 98v188.9H423.7V411.9h113.8v52.2h1.6c15.8-30 54.5-61.7 112.3-61.7 120.2 0 142.3 79.1 142.3 181.9v209.4z' />
+                <path d='M480 20c133.333 0 246.667 46.667 340 140s140 206.667 140 340c0 132-46.667 245-140 339S613.333 980 480 980c-132 0-245-47-339-141S0 632 0 500c0-133.333 47-246.667 141-340S348 20 480 20M362 698V386h-96v312h96m-48-352c34.667 0 52-16 52-48s-17.333-48-52-48c-14.667 0-27 4.667-37 14s-15 20.667-15 34c0 32 17.333 48 52 48m404 352V514c0-44-10.333-77.667-31-101s-47.667-35-81-35c-44 0-76 16.667-96 50h-2l-6-42h-84c1.333 18.667 2 52 2 100v212h98V518c0-12 1.333-20 4-24 8-25.333 24.667-38 50-38 32 0 48 22.667 48 68v174h98' />
               </svg>
             </a>
 
-            <a href='' target='_blank'>
-              <svg
-                viewBox='0 0 1024 1024'
-                fill='currentColor'
-                className='w-8 h-8 text-teal-500 hover:text-teal-700'
-              >
-                <path d='M30 264C8.667 252-.667 238.667 2 224c1.333-9.333 10-14 26-14h846c25.333 0 32 10.667 20 32-5.333 9.333-13.333 16.667-24 22-9.333 4-73.333 38-192 102s-179.333 96.667-182 98c-10.667 6.667-26 10-46 10-18.667 0-34-3.333-46-10-2.667-1.333-63.333-34-182-98S39.333 268 30 264m850 100c13.333-6.667 20-3.333 20 10v368c0 10.667-5.667 21.333-17 32-11.333 10.667-22.333 16-33 16H50c-10.667 0-21.667-5.333-33-16-11.333-10.667-17-21.333-17-32V374c0-13.333 6.667-16.667 20-10l384 200c12 6.667 27.333 10 46 10s34-3.333 46-10l384-200' />
-              </svg>
+            <a href='#' target='_blank'>
+              <div className='flex items-center justify-center w-8 h-8 bg-teal-500 hover:bg-teal-700 rounded-full'>
+                <svg
+                  viewBox='0 0 1024 1024'
+                  fill='currentColor'
+                  className='pl-[2px] w-[22px] h-[22px] text-white dark:text-black'
+                >
+                  <path d='M30 264C8.667 252-.667 238.667 2 224c1.333-9.333 10-14 26-14h846c25.333 0 32 10.667 20 32-5.333 9.333-13.333 16.667-24 22-9.333 4-73.333 38-192 102s-179.333 96.667-182 98c-10.667 6.667-26 10-46 10-18.667 0-34-3.333-46-10-2.667-1.333-63.333-34-182-98S39.333 268 30 264m850 100c13.333-6.667 20-3.333 20 10v368c0 10.667-5.667 21.333-17 32-11.333 10.667-22.333 16-33 16H50c-10.667 0-21.667-5.333-33-16-11.333-10.667-17-21.333-17-32V374c0-13.333 6.667-16.667 20-10l384 200c12 6.667 27.333 10 46 10s34-3.333 46-10l384-200' />
+                </svg>
+              </div>
             </a>
 
-            <a href='' target='_blank'>
+            <a href='#' target='_blank'>
               <svg
                 viewBox='0 0 1024 1024'
                 fill='currentColor'
                 className='w-8 h-8 text-teal-500 hover:text-teal-700'
               >
-                <path d='M928 254.3c-30.6 13.2-63.9 22.7-98.2 26.4a170.1 170.1 0 0075-94 336.64 336.64 0 01-108.2 41.2A170.1 170.1 0 00672 174c-94.5 0-170.5 76.6-170.5 170.6 0 13.2 1.6 26.4 4.2 39.1-141.5-7.4-267.7-75-351.6-178.5a169.32 169.32 0 00-23.2 86.1c0 59.2 30.1 111.4 76 142.1a172 172 0 01-77.1-21.7v2.1c0 82.9 58.6 151.6 136.7 167.4a180.6 180.6 0 01-44.9 5.8c-11.1 0-21.6-1.1-32.2-2.6C211 652 273.9 701.1 348.8 702.7c-58.6 45.9-132 72.9-211.7 72.9-14.3 0-27.5-.5-41.2-2.1C171.5 822 261.2 850 357.8 850 671.4 850 843 590.2 843 364.7c0-7.4 0-14.8-.5-22.2 33.2-24.3 62.3-54.4 85.5-88.2z' />
+                <path d='M480 20c133.333 0 246.667 46.667 340 140s140 206.667 140 340c0 132-46.667 245-140 339S613.333 980 480 980c-132 0-245-47-339-141S0 632 0 500c0-133.333 47-246.667 141-340S348 20 480 20m196 392c20-14.667 35.333-30.667 46-48-21.333 8-39.333 12.667-54 14 20-12 34-29.333 42-52-20 10.667-40 18-60 22-18.667-18.667-42-28-70-28-26.667 0-49 9.333-67 28s-27 40.667-27 66c0 1.333.333 4.667 1 10s1 9.333 1 12c-80-4-144.667-37.333-194-100-9.333 16-14 32-14 48 0 33.333 14.667 59.333 44 78-17.333 0-32-4-44-12v2c0 22.667 7 42.667 21 60s32.333 28 55 32c-10.667 2.667-18.667 4-24 4-8 0-14-.667-18-2 13.333 44 42.667 66 88 66-33.333 26.667-72.667 40-118 40h-22c45.333 28 93.333 42 144 42 81.333 0 146.667-27.667 196-83s74-117.667 74-187v-12' />
               </svg>
             </a>
           </div>
         </div>
-        <div className='prose max-w-none prose-lg pt-8 pb-8 dark:prose-invert xl:col-span-2'>
-          <p>Hi My name is Ilan, I am a Developer. FSD. Web Designer</p>
+        <div className='prose max-w-none prose-lg pt-12 pb-8 dark:prose-invert xl:col-span-2'>
+          <p className='font-medium'>
+            Hi, My name is John Doe, I am a Web Designer and a Frontend
+            Developer.
+          </p>
           <p>
-            Full Stack Web developer with over 8 years of experience in
-            designing UI responsive and condensed Websites and developing Web
-            applications, landing pages and digital publications, using varied
-            modern technologies.
+            Web developer with over 8 years of experience in designing UI
+            responsive and condensed Websites and developing Web applications,
+            landing pages and digital publications, using varied modern
+            technologies.
           </p>
           <p>
             I am passionate and self-driven person with professional dynamism

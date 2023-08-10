@@ -11,13 +11,13 @@ export default function Navbar() {
     <Disclosure as='nav'>
       {({ open }) => (
         <>
-          <div className='max-w-6xl mx-auto px-4 sm:px-6 lg:px-8'>
+          <div className='max-w-6xl mx-auto px-8 sm:px-6 lg:px-8'>
             <div className='flex justify-between h-16'>
               <div className='flex justify-between w-full'>
                 <div className='flex items-center'>
                   <Link href='/'>
                     <h1 className=' text-2xl font-medium'>
-                      Ilan <span className='text-teal-500'>Lavi</span>
+                      John <span className='text-teal-500'>Doe</span>
                     </h1>
                   </Link>
                 </div>
