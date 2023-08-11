@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import ProfilePic from '@/public/img_5158.jpeg';
+import ProfilePic from '@/public/profile.jpg';
 export default function Home() {
   return (
     <div className='divide-y divide-gray-100 dark:divide-gray-700'>
@@ -14,7 +14,7 @@ export default function Home() {
           <Image
             alt=''
             src={ProfilePic}
-            className='rounded-full w-52 h-52 object-cover object-top backdrop-brightness-200'
+            className='rounded-full w-48 h-48 object-cover object-[50%,35%] backdrop-brightness-200'
           />
           <h3 className='pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight'>
             John Doe
